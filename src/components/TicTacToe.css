@@ -1,0 +1,76 @@
+/** @format */
+
+.TicTacToeApp {
+  width: 500px;
+  height: 550px;
+  background-color: #f5f5f5;
+  margin: 5rem auto;
+  border-radius: 10px;
+  padding: 20px;
+  user-select: none;
+  display: grid;
+}
+
+.TicTacToeSquares {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 1rem;
+}
+.TicTac {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(192, 192, 192);
+  text-align: center;
+  border-radius: 10px;
+  line-height: 110px;
+  margin: auto;
+  font-size: 6.5rem;
+  color: rgb(255, 255, 255);
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+.oue {
+  text-shadow: 1px 1px 20px rgb(92, 119, 240), 1px 1px 20px rgb(92, 119, 240),
+    1px 1px 20px rgb(92, 119, 240), 1px 1px 20px rgb(92, 119, 240);
+}
+.exe {
+  text-shadow: 1px 1px 20px rgb(240, 102, 92), 1px 1px 20px rgb(240, 102, 92),
+    1px 1px 20px rgb(240, 102, 92), 1px 1px 20px rgb(240, 102, 92);
+}
+
+.p1 {
+  box-shadow: 1px 1px 25px rgb(92, 119, 240), 1px 1px 25px rgb(92, 119, 240),
+    1px 1px 25px rgb(92, 119, 240), 1px 1px 25px rgb(92, 119, 240);
+  transition: 0.5s;
+}
+.p2 {
+  box-shadow: 1px 1px 25px rgb(240, 102, 92), 1px 1px 25px rgb(240, 102, 92),
+    1px 1px 25px rgb(240, 102, 92), 1px 1px 25px rgb(240, 102, 92);
+  transition: 0.5s;
+}
+.RestartButton {
+  margin: 0 35px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  background-color: #0b2434;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.RestartOver {
+  cursor: pointer;
+  background-color: #2e8eca;
+  font-size: 2rem;
+  padding: 0;
+}
+.RestartOver:hover {
+  background-color: #12679c;
+}
+.smallFont {
+  font-size: 1rem;
+}
